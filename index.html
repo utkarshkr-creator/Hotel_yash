@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Yash Raj</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://use.typekit.net/kun3xht.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  
+  <section id="Image-slider">
+    <div class="img-container">
+      <div class="arrow l" onclick="prev()">
+          <img src="./Assets/I.png">
+      </div>
+    
+   
+      <div class="slide">
+          <img src="./Assets/Img 4.jpeg.jpg" alt="r">
+           <div class="caption">
+               <h3>Our guests recommend</h3>
+               <p>Wonderfully furnished room, suitable for a all type of getaway</p>
+           </div>
+                 
+      </div>
+      <div class="slide"> 
+          <img src="./Assets/Img 3.jpeg.jpg" alt="r">
+          
+          <div class="caption">
+              
+              <h3>Luxurious design</h3>
+              <p>An exquisitely designed cosy luxury hotel in Patna</p>
+          </div>
+     </div>
+     <div class="slide">
+      <img src="./Assets/Img 2.jpeg.jpg" alt="r">
+          <div class="caption">
+              <h3>Feel itself special cuisines</h3>
+              <p>Let your taste buds experience a new flavour of cuisines</p>
+          </div>
+     </div>
+     <div class="slide">
+      <img src="./Assets/Img 1.jpeg.jpg" alt="r">
+          <div class="caption">
+              <h3>A new face of luxury</h3>
+              <p>The property is developed perfectly for all sort of accommodation and events</p>
+          </div>
+     </div>
+     <div class="arrow r" onclick="next()">
+      <img src="./Assets/R.png" alt="r">
+     </div>
+     
+  </div>
+  </section>
+  <section id="navbar">
+    <div class="nav-container">
+      <div class="sec-cont">
+        <a href="index.html">
+          <img src="./Assets/logo.jpg" alt="logoimg" class="logo"></img>
+        </a>
+        <div class="container">
+          <nav id="navbarMenu">
+            <div class="toggleMenu">Menu</div>
+            <!-- <div id="brand">COMPANY</div> -->
+              <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li class="submenu"><a href="#">ROOMS</a>
+                    <ul>
+                        <li><a href="#">CLUB ROOM</a></li>
+                        <li><a href="#">CLUB SUPERIOR</a></li>
+                    </ul>
+                </li>
+                <li class="submenu"><a href="#">MEETINGS & EVENTS</a>
+                    <ul>
+                        <li><a href="#">BANGUET HALL GALAXY</a></li>
+                        <li><a href="#">BANQUET HALL AZARA</a></li>
+                        <li><a href="#">SITTING PLAN</a></li>
+                    </ul>
+                </li>
+                <li class="submenu"><a href="#">RESTAURANTS & CAFE</a>
+                  <ul>
+                      <li><a href="#">SLIK ROUTE RESTAURANT</a></li>
+                      <li><a href="#">CAFE GREEN EYE</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">CURRENT OPENINGS</a></li>
+              <li class="submenu"><a href="#">MEDIA GALLERY</a>
+                <ul>
+                    <li><a href="#">PHOTO GALLERY</a></li>
+                    <li><a href="#">RECENT ACTIVITIES</a></li>
+                    <li><a href="#">PRESS RELEASE</a></li>
+                </ul>
+            </li>
+                
+                <li><a href="/contact.html">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+        <div class="btn-cont">
+          <a class="btn-link" href="#">BOOK ROOM</a>
+        </div>
+        <div class="address">
+          <p>West of Ream Gulam Chowk</p>
+        </div>
+        <section id="footer">
+          <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/2504/2504903.png" alt="foot1" class="fut" />
+          </a>
+          <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/3256/3256013.png" alt="foot2" class="fut" />
+          </a>
+          <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="foot3" class="fut" />
+          </a>
+          <a href="#">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="foot4" class="fut" />
+          </a>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- // for mobile view -->
+  <!-- <div id="logo-img"> -->
+    <div class="logo-container " id="logo-container">
+      <div class="btn-cont">
+        <a class="btn-link" href="#">BOOK ROOM</a>
+      </div>
+      <div class="logo-menu">
+        <div class="logo-img">
+          <a href="index.html">
+        <img src="./Assets/logo.jpg" alt="mobile-logo" class="mobile-img" />
+        </a>  
+      </div>
+        <div class="" id="open-btn">
+        <button class="menu-button" onclick="onClickMenu()">
+          <div class="menu-icon"></div>
+          <div class="menu-icon"></div>
+          <div class="menu-icon"></div>
+        </button>
+      </div>
+    </div>
+    <nav>
+      <div class="mobile-nav" id="show-side-bar">
+        <nav id="navbarMenu" class="navMob">
+          <div class="toggleMenu">Menu</div>
+          <!-- <div id="brand">COMPANY</div> -->
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li class="submenu"><a href="#">ROOMS</a>
+                    <ul>
+                        <li><a href="#">CLUB ROOM</a></li>
+                        <li><a href="#">CLUB SUPERIOR</a></li>
+                    </ul>
+                </li>
+                <li class="submenu"><a href="#">MEETINGS & EVENTS</a>
+                    <ul>
+                        <li><a href="#">BANGUET HALL GALAXY</a></li>
+                        <li><a href="#">BANQUET HALL AZARA</a></li>
+                        <li><a href="#">SITTING PLAN</a></li>
+                    </ul>
+                </li>
+                <li class="submenu"><a href="#">RESTAURANTS & CAFE</a>
+                  <ul>
+                      <li><a href="#">SLIK ROUTE RESTAURANT</a></li>
+                      <li><a href="#">CAFE GREEN EYE</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">CURRENT OPENINGS</a></li>
+              <li class="submenu"><a href="#">MEDIA GALLERY</a>
+                <ul>
+                    <li><a href="#">PHOTO GALLERY</a></li>
+                    <li><a href="#">RECENT ACTIVITIES</a></li>
+                    <li><a href="#">PRESS RELEASE</a></li>
+                </ul>
+            </li>
+                
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </nav>
+    </div>
+  <!-- </div> -->
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
