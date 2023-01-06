@@ -24,6 +24,7 @@ $(".submenu").click(function(e){
 
 function onClickMenu(){
     document.getElementById("show-side-bar").classList.toggle('nav-list-mobile');
+    document.getElementById("mobile-detail").classList.toggle('mobile-detail');
     // document.getElementById("open-btn").classList.toggle('menu-div')
     // document.getElementById("logo-container").classList.toggle('logo-div')
  

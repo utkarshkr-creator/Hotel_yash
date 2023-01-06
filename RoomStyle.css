@@ -1,0 +1,152 @@
+
+ #navbar{
+    /* border: 5px solid rebeccapurple; */
+    position: fixed !important;
+}
+.mob_cont{
+    display: none;
+}
+.back-img{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.back-img img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.room-detail{
+    /* border: 5px solid green; */
+    position: relative;
+    margin-left: 250px;
+    padding: 20px 20px;
+    width: auto;
+    height: 100vh;
+    background: url(./Assets/subpage_yellow_bg.png);
+   
+} 
+.ch{
+    color: #8e1a1c;
+    
+}
+
+.d{
+       
+text-align: center;
+}
+
+.main-container {
+    background-color: #FFFFED;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    opacity: 1;
+
+}
+
+
+  .head {
+    color: #8e1a1c;
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: 35px;
+  }
+
+  .one {
+    padding-top: 20px;
+    font-size: 25px;
+  }
+
+ 
+  .room-img {
+    width: 100%;
+    height: 152px;
+    padding-bottom: 10px;
+  }
+
+  .room-img1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 460px;
+    
+
+  }
+  .room-c2{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  .room-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .room-div{
+      display: block;
+  }
+@media screen and (max-width:650px){
+    #navbar{
+        display: none;
+    }
+
+    .room-container{
+        display: block;
+        
+        /* position: fixed; */
+        height: auto;
+        margin: 0;
+        /* flex-direction:column ; */
+    }
+    .logo-container {
+        position: absolute;
+        top:0;
+        margin-top: 0;
+        margin-left: 0;
+        background-color: black;
+        width: 100%;
+        padding:0;
+        /* height: auto; */
+        opacity: 0.9;
+        
+    }
+    .mobile-detail{
+        /* position: absolute; */
+         top:520px !important;
+    }
+   
+    .cm {
+        position:absolute;
+        background-color: black;
+        /* margin-left:0; */
+        /* margin-left: 50px; */
+        right: 0;
+        padding: 20px;
+        /* align-items: right; */
+        /* margin-top: 80%; */
+        margin-right: 0;
+        border: 0;
+    }
+    .room-detail{
+        /* display: flex;
+        flex-direction:column; */
+        position: absolute;
+        display: block;
+        /* position:absolute; */
+        top:120px;
+        padding:20px 10px;
+        /* bottom: 0; */
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+
+    }
+    .room-img{
+        height: 200px;
+        margin: 0 !important;
+        padding: 0;
+    }
+}

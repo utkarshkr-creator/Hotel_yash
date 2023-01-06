@@ -23,7 +23,7 @@
     display: inline-block;
     object-fit: cover;
 }
-.contact-detail{
+.metting-detail{
     position: relative;
     margin-left: 20px;
     padding: 20px 20px;
@@ -44,7 +44,7 @@
     
 .contact-container{
     display: flex;
-    /* background: url(./Assets/Img\ 4.jpeg.jpg); */
+    background: url(./Assets/Img\ 4.jpeg.jpg);
 
 }
 @media screen and (max-width:650px){
@@ -81,7 +81,7 @@
         margin-right: 0;
         border: 0;
     }
-    .contact-detail{
+    .metting-detail{
         position:relative;
         top:120px;
         padding:20px 10px;
